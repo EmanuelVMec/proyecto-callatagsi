@@ -40,14 +40,14 @@ const Sidebar = () => {
       <div className="space-y-1">
         <Option
           Icon={FiHome}
-          title="Dashboard"
+          title="Mis cobranzas"
           selected={selected}
           setSelected={setSelected}
           open={open}
         />
         <Option
           Icon={FiDollarSign}
-          title="Sales"
+          title="Mis productos y servicios"
           selected={selected}
           setSelected={setSelected}
           open={open}
@@ -55,35 +55,42 @@ const Sidebar = () => {
         />
         <Option
           Icon={FiMonitor}
-          title="View Site"
+          title="Notas"
           selected={selected}
           setSelected={setSelected}
           open={open}
         />
         <Option
           Icon={FiShoppingCart}
-          title="Products"
+          title="Dashboard"
           selected={selected}
           setSelected={setSelected}
           open={open}
         />
         <Option
           Icon={FiTag}
-          title="Tags"
+          title="Notificaciones"
           selected={selected}
           setSelected={setSelected}
           open={open}
         />
         <Option
           Icon={FiBarChart}
-          title="Analytics"
+          title="Exportar datos"
           selected={selected}
           setSelected={setSelected}
           open={open}
         />
         <Option
           Icon={FiUsers}
-          title="Members"
+          title="Respaldo en linea"
+          selected={selected}
+          setSelected={setSelected}
+          open={open}
+        />
+        <Option
+          Icon={FiUsers}
+          title="Copias de seguridad"
           selected={selected}
           setSelected={setSelected}
           open={open}
@@ -214,7 +221,7 @@ const ToggleClose = ({ open, setOpen }) => {
             transition={{ delay: 0.125 }}
             className="text-xs font-medium"
           >
-            Hide
+            Esconder
           </motion.span>
         )}
       </div>
