@@ -1,11 +1,12 @@
-import { Example } from "@/components/RetractingSideBar";
 import LoginPage from "./login/page";
+import Page from "./dashboard/page";
 
 
 export default function Home() {
   return (
     <div>
-      <LoginPage />
+      <LoginPage/>
+      {/*<Page/>
       {/*<Example/>*/}
     </div>
   );
