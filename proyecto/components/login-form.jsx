@@ -24,7 +24,7 @@ export function LoginForm({ className, ...props }) {
               <div className="flex flex-col items-center text-center">
                 <h1 className="text-2xl font-bold">Bienvenido</h1>
                 <p className="text-balance text-muted-foreground">
-                  Inicie sesión en su cuenta de Acme Inc.
+                  Inicie sesión en su cuenta de Inventario
                 </p>
               </div>
               <div className="grid gap-2">
@@ -80,7 +80,7 @@ export function LoginForm({ className, ...props }) {
               <div className="text-center text-sm">
                 ¿No tienes una cuenta?{" "}
                 <a href="#" className="underline underline-offset-4">
-                  Sign up
+                  Registrarse
                 </a>
               </div>
             </div>

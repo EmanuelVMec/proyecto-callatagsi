@@ -52,63 +52,47 @@ const data = {
   ],
   navMain: [
     {
-      title: "Playground",
+      title: "Mis cobranzas",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "Clientes",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "Carpetas",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "Detalle de cobros",
           url: "#",
         },
       ],
     },
     {
-      title: "Models",
+      title: "Mis productos y servicios",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
+          title: "Lista de productos",
           url: "#",
         },
         {
-          title: "Explorer",
-          url: "#",
-        },
-        {
-          title: "Quantum",
+          title: "Agregar",
           url: "#",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Dashboard",
       url: "#",
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
+          title: "Información general",
           url: "#",
         },
       ],
